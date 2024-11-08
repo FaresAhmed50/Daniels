@@ -3,8 +3,6 @@
 
 
 
-
-
 :root{
 
     --main-color-rgb: rgb(52, 52, 52);
@@ -15,6 +13,11 @@
 
 }
 
+.color-white{
+    color: white;
+}
+
+
 @font-face {
     font-family: popins-regular;
     src: url('../webfonts/Poppins-Regular.ttf');
@@ -23,12 +26,12 @@
 
 @font-face {
     font-family: Montserrat-mid;
-    src: url('../webfonts/static/Montserrat-Medium.ttf') format(ttf);
+    src: url('../webfonts/static/Montserrat-Medium.ttf') ;
 }
 
 @font-face {
     font-family: Montserrat-black;
-    src: url('../webfonts/static/Montserrat-Black.ttf') format(ttf);
+    src: url('../webfonts/static/Montserrat-Black.ttf')  ;
 }
 
 h1,h2,h3,h4,h5,h6{
