@@ -1,0 +1,39 @@
+
+.color-white{
+    color: white;
+}
+
+
+nav{
+    z-index: 9999;
+}
+
+nav .logo{
+
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+nav .active-link{
+
+    border-bottom: 0.1rem white solid ;
+    padding-bottom:0 ;
+}
+
+header{
+    height: 100vh;
+}
+
+.bg-image{
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url('../asset/imgs/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-secondaryy{
+    background-color: rgba(0, 0, 0 ,0.3);
+}
+

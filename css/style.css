@@ -1,0 +1,60 @@
+@import url(header.css);
+@import url(About.css);
+
+
+
+
+
+:root{
+
+    --main-color-rgb: rgb(52, 52, 52);
+    --main-color: #343434;
+    --secondary-color: #748182;
+    --secondary-color-rgb : rgb(116, 129, 130);
+    --main-font: "Montserrat-black" , sans-serif
+
+}
+
+@font-face {
+    font-family: popins-regular;
+    src: url('../webfonts/Poppins-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: Montserrat-mid;
+    src: url('../webfonts/static/Montserrat-Medium.ttf') format(ttf);
+}
+
+@font-face {
+    font-family: Montserrat-black;
+    src: url('../webfonts/static/Montserrat-Black.ttf') format(ttf);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-black" , sans-serif;
+}
+
+p{
+    font-family: "popins-regular" , sans-serif;
+}
+
+
+
+@media screen and (max-width : 992px) {
+
+    nav ul{
+        padding-top: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        
+        li{
+            padding-bottom: 0.5rem;
+        }
+        .color-white{
+            color: var(--main-color);
+        }
+    }
+    
+}
