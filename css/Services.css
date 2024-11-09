@@ -1,0 +1,47 @@
+
+.services__heading h2{
+    z-index: 2;
+}
+.services__heading h2:before{
+
+    content: "";
+    position: absolute;
+
+    width: 15%;
+    height: 30%;
+    top: 20%;
+    left: calc(50% - 100px);
+    background-image: url("../asset/imgs/dots.png");
+
+    z-index: -1;
+}
+
+.bg-change{
+    background-color: var(--bg-color);
+}
+
+.card-text{
+
+    p{
+        line-height: 1.6rem;
+        color: var(--secondary-color);
+    }
+}
+
+
+.card-img span{
+    background-color: #f4f4f4;
+    transition: all  0.3s ease-in-out;
+}
+
+
+.card__:hover{
+    .card-img span{
+        background-color: black;
+    }
+
+    .card-img i{
+        color: white;
+    }
+}
+

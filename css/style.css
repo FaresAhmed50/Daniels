@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(About.css);
+@import url(Services.css);
 
 
 
@@ -9,12 +10,20 @@
     --main-color: #343434;
     --secondary-color: #748182;
     --secondary-color-rgb : rgb(116, 129, 130);
-    --main-font: "Montserrat-black" , sans-serif
+    --main-font: "Montserrat-black" , sans-serif;
+    --bg-color: #f7f7f7;
+}
 
+*{
+    box-sizing: border-box;
 }
 
 .color-white{
     color: white;
+}
+
+.sec-padding{
+    padding: 100px 0 70px 0;
 }
 
 
@@ -59,5 +68,35 @@ p{
             color: var(--main-color);
         }
     }
+
+    .services__heading h2:before{
+        width: 25%;
+        left: calc(50% - 85px);
+    }
     
+}
+
+
+@media screen and (max-width : 700px) {
+
+    .progress-edit_1::after{
+        left: 87%;
+    }
+
+    .progress-edit_2::after{
+        left: 73%;
+    }
+
+    .progress-edit_3::after{
+        left: 83%;
+    }
+
+    .About__content{
+        margin-top: 2rem;
+    }
+
+    .services__heading h2:before{
+        width: 30%;
+        left: calc(50% - 80px);
+    }
 }
