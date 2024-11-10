@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(About.css);
 @import url(Services.css);
+@import url(Portfolio.css);
 
 
 
@@ -16,6 +17,23 @@
 
 *{
     box-sizing: border-box;
+}
+
+.sec__heading h2{
+    z-index: 2;
+}
+.sec__heading h2:before{
+
+    content: "";
+    position: absolute;
+
+    width: 15%;
+    height: 30%;
+    top: 20%;
+    left: calc(50% - 100px);
+    background-image: url("../asset/imgs/dots.png");
+
+    z-index: -1;
 }
 
 .color-white{
@@ -73,6 +91,11 @@ p{
         width: 25%;
         left: calc(50% - 85px);
     }
+
+    .sec__heading h2:before{
+        width: 25%;
+        left: calc(50% - 85px);
+    }
     
 }
 
@@ -96,6 +119,11 @@ p{
     }
 
     .services__heading h2:before{
+        width: 30%;
+        left: calc(50% - 80px);
+    }
+
+    .sec__heading h2:before{
         width: 30%;
         left: calc(50% - 80px);
     }
