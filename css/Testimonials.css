@@ -1,0 +1,35 @@
+
+.w-10{
+    width: 100px;
+}
+
+
+.carousel-indicators{
+    bottom: -20px;
+}
+
+.carousel-indicators [data-bs-target]{
+
+    height: 10px;
+    width: 10px;
+}
+
+figcaption {
+
+    p{
+        color: var(--secondary-color);
+    }
+
+    h4{
+        font-size: 16px;
+        font-weight: 600;
+        font-family: Montserrat-reg, serif;
+    }
+
+
+
+}
+
+.Testimonial__P-special{
+    font-size: 12px;
+}

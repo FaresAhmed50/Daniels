@@ -2,6 +2,7 @@
 @import url(About.css);
 @import url(Services.css);
 @import url(Portfolio.css);
+@import url(Testimonials.css);
 
 
 
@@ -17,6 +18,15 @@
 
 *{
     box-sizing: border-box;
+}
+
+body{
+    font-family: "popins-regular" , sans-serif;
+}
+
+
+.bg-change{
+    background-color: var(--bg-color);
 }
 
 .sec__heading h2{
@@ -57,6 +67,11 @@
 }
 
 @font-face {
+    font-family: Montserrat-reg;
+    src: url('../webfonts/static/Montserrat-Regular.ttf') ;
+}
+
+@font-face {
     font-family: Montserrat-black;
     src: url('../webfonts/static/Montserrat-Black.ttf')  ;
 }
@@ -65,9 +80,6 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Montserrat-black" , sans-serif;
 }
 
-p{
-    font-family: "popins-regular" , sans-serif;
-}
 
 
 
