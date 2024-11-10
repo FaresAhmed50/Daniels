@@ -3,6 +3,8 @@
 @import url(Services.css);
 @import url(Portfolio.css);
 @import url(Testimonials.css);
+@import url(Team.css);
+@import url(contact-us.css);
 
 
 
@@ -54,6 +56,17 @@ body{
     padding: 100px 0 70px 0;
 }
 
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.btn__effect:hover{
+    background-color: #ffffff !important;
+    color: black;
+}
+
+
+
 
 @font-face {
     font-family: popins-regular;
@@ -80,7 +93,13 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Montserrat-black" , sans-serif;
 }
 
+p{
+    color: var(--secondary-color);
+}
 
+footer{
+    background-color: #1c1c1c;
+}
 
 
 @media screen and (max-width : 992px) {

@@ -1,6 +1,6 @@
 
 
-.img__overlay{
+.img__overlay-Portfolio{
     inset: 1%;
     background-color: white;
     opacity: 0;
@@ -12,10 +12,6 @@
 
 .imd__overlay-content{
 
-    p{
-        transform: translateY(-15px);
-        transition: all 0.5s ease-in-out;
-    }
 
     button{
 
@@ -28,7 +24,7 @@
 
 .Portfolio__img:hover{
 
-    .img__overlay{
+    .img__overlay-Portfolio{
         opacity: 1;
         transform: translateY(0);
     }
@@ -45,7 +41,7 @@
     }
 }
 
-.img__overlay button:hover{
+.img__overlay-Portfolio button:hover{
 
     background-color: white !important;
 
@@ -89,7 +85,7 @@
     }
 }
 
-.img__overlay{
+.img__overlay-Portfolio{
 
     p{
         font-family: Montserrat-black;

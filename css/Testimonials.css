@@ -14,7 +14,7 @@
     width: 10px;
 }
 
-figcaption {
+.testimonial figcaption {
 
     p{
         color: var(--secondary-color);
@@ -32,4 +32,8 @@ figcaption {
 
 .Testimonial__P-special{
     font-size: 12px;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: #869791;
 }

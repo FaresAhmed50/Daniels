@@ -19,6 +19,12 @@ nav .active-link{
     padding-bottom:0 ;
 }
 
+.navbar-brand:hover , .nav-link:focus, .nav-link:hover{
+
+    color: white;
+
+}
+
 header{
     height: 100vh;
 }
